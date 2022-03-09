@@ -1,0 +1,22 @@
+@use "global" as *;
+// sp size  375px -> sp
+// tb size  768px -> md
+// pc size 1440px -> xl
+
+.box1 {
+  // box setting
+  width: rem(100);
+  height: rem(100);
+  background-color: #ff7f50;
+  display: inline-block;
+  // layout
+  margin-bottom: rem(50);
+  // decoration
+  border-width: rem(10) rem(10) rem(10) rem(10);
+  border-style: solid; // borderの線のスタイルを指定する。
+  border-color: #e25c00 #008080 #ff69b4 #4169e1; // バッジの色を指定する。
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

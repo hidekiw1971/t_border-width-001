@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
   <meta name="format-detection" content="telephone=no" />
   <!-- meta情報 -->
-  <title>CodeUps</title>
+  <title>watabe-ya</title>
   <meta name="description" content="" />
   <meta name="keywords" content="" />
   <!-- ogp -->
@@ -16,16 +17,65 @@
   <meta property="og:site_name" content="" />
   <meta property="og:description" content="" />
   <!-- ファビコン -->
-  <link rel="”icon”" href="" />
+  <link rel="icon" href="images/favicon.ico" />
   <!-- css -->
   <link rel="stylesheet" href="./css/styles.css">
   <!-- JavaScript -->
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script defer src="./js/script.js"></script>
 </head>
+
 <body>
-  <div class="inner">
-  <p class="test">変更のテスト</p>
-</div>
+
+  <section class="wrap">
+    <!-- sample1 start -->
+    <h3>border-width 擬似要素テスト1</h3>
+    <p>textのbox(rem(10))の周りにborder-width: rem(10);が設定された状態。</p>
+    <div class="box1">
+      <p class="text1">test</p>
+    </div>
+    <!-- sample1 end -->
+
+    <!-- sample2 start -->
+    <h3>border-width 擬似要素テスト2</h3>
+    <p>textのbox(rem(0))にして、その周りにborder-widthを以下のように設定した状態。</p>
+    <p>border-width: rem(50) rem(50) rem(50) rem(50);</p>
+    <p>border-color: #e25c00 #008080 #ff69b4 #4169e1;</p>
+    <div class="box2">
+      <p class="text2"></p>
+    </div>
+    <!-- sample2 end -->
+
+    <!-- sample3 start -->
+    <h3>border-width 擬似要素テスト3</h3>
+    <p>textのbox(rem(0))にして、その周りにborder-widthを以下のように設定した状態。</p>
+    <p>border-width: rem(50) rem(50) rem(0) rem(0);</p>
+    <p>border-color: #e25c00 #008080 #ff69b4 #4169e1</p>
+    <div class="box3">
+      <p class="text3"></p>
+    </div>
+    <!-- sample3 end -->
+
+    <!-- sample4 start -->
+    <h3>border-width 擬似要素テスト4</h3>
+    <p>textのbox(rem(0))にして、その周りにborder-widthを以下のように設定した状態。</p>
+    <p>border-width: rem(50) rem(0) rem(0) rem(0);</p>
+    <p>border-color: #e25c00 #008080 #ff69b4 #4169e1;</p>
+    <p class="red">何も表示されなくなった。</p>
+    <div class="box4">
+      <p class="text4"></p>
+    </div>
+    <!-- sample4 end -->
+
+    <!-- sample5 start -->
+    <h3>border-width 擬似要素テスト5</h3>
+    <p>textのbox(rem(0))にして、その周りにborder-widthを以下のように設定した状態。</p>
+    <div class="box5">
+      <p class="text5"></p>
+    </div>
+    <!-- sample3 end -->
+  </section>
+
 </body>
+
 </html>
