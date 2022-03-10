@@ -1,0 +1,16 @@
+@use "global" as *;
+.kensho {
+  display: inline-block;
+  width: rem(100);
+  height: rem(100);
+  // background-color: yellow;
+  background-color: transparent;
+  border: solid 10px;
+  border-color: green red blue black;
+  // border-color: transparent red blue black;
+  margin-bottom: rem(50);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

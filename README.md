@@ -2,7 +2,8 @@
 
 ## 概要
 
-- ｘｘｘ
+- border-width で検証してます。
+- border-width を使って三角形を作成する。
 
 ## 仕様
 
@@ -13,12 +14,7 @@
 
 ## 注意事項
 
-- xxx
-
 ## 使い方
-
-- 「copy start」から「copy end」をコピペ。
-- css: src -> module -> xxx をコピペ。
 
 ## イメージ画像
 
@@ -26,14 +22,16 @@
 
 ## portfolio url:
 
-- https://css-md-0000.wtb.cfbx.jp/
+- https://c-0021.wtb.cfbx.jp/
 
 ## 参考にしたサイト
 
-- xxx
+- 【CSS】 border-width を学ぶ【三角形で国旗を作る】
+- https://sunsukeblog.com/css-border-width
 
 ## 更新履歴
 
+- 2022/3/10 検証済
 - 2022/3/9 初版 作成中
 
 ## 環境・使い方

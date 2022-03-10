@@ -1,0 +1,9 @@
+@use "global" as *;
+.kensho1-wrap {
+  max-width: rem(768);
+  text-align: center;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

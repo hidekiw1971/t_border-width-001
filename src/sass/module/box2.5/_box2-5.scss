@@ -1,0 +1,22 @@
+@use "global" as *;
+// sp size  375px -> sp
+// tb size  768px -> md
+// pc size 1440px -> xl
+
+.box2-5 {
+  // box setting
+  width: rem(0);
+  height: rem(0);
+  background-color: transparent; // 元のboxのカラーは透明にする。
+  display: inline-block;
+  // layout
+  margin-bottom: rem(50);
+  // decoration
+  border-width: rem(50) rem(50) rem(50) rem(50); // 上、右、下、左の順番になっています。
+  border-style: solid; // borderの線のスタイルを指定する。
+  border-color: #e25c00 transparent transparent #4169e1; // バッジの色を指定する。上、右、下、左の順番になっています。
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
